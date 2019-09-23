@@ -1,4 +1,6 @@
-abstract class AttachmentUrl {
+import 'package:data_model/data_model.dart';
+
+abstract class AttachmentUrl implements JsonEncodable {
   final String _url;
 
   AttachmentUrl(this._url);
